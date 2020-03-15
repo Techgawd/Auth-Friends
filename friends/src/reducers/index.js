@@ -2,7 +2,7 @@ import {
     LOGIN_START,
     FETCHING_FRIENDS,
     FETCH_FRIENDS_SUCCESS
-    } from '../reducers/actions';
+    } from '../actions/index';
     
     const initialState = () =>{
         return {

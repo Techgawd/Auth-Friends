@@ -1,9 +1,9 @@
 import axios from 'axios';
-// import { axiosWithAuth } from '';
+import { axiosWithAuth } from '../utils/axiosWithAuth';
 
 export const LOGIN_START = 'LOGIN_START';
 export const FETCHING_FRIENDS = 'FETCHING_FRIENDS';
-export const FETCHING_FRIENDS_SUCCESS = 'FETCH_FRIENDS_SUCCESS';
+export const FETCH_FRIENDS_SUCCESS = 'FETCH_FRIENDS_SUCCESS';
 export const FETCH_FRIENDS_FAIL = 'FETCH_FRIENDS_FAIL';
 
 export const login = creds => dispatch => {
