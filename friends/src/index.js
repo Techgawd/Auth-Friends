@@ -10,4 +10,4 @@ import { axiosWithAuth } from './utils/axiosWithAuth';
 
 const store = createStore(reducer, applyMiddleware(axiosWithAuth, thunk));
 
-ReactDOM.render(<Provider store= {store}><App /></Provider>, document.getElementById('root'));
+ReactDOM.render(<Provider store= {store}><Router><App /></Router></Provider>, document.getElementById('root'));
